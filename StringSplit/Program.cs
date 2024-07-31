@@ -7,8 +7,9 @@ namespace StringSplit
         static void Main(string[] args)
         {
             string text = "I just wanna feel alive.";
+            char symbol = ' ';
 
-            string[] subText = text.Split(' ');
+            string[] subText = text.Split(symbol);
 
             foreach (var  sub in subText)
             {
